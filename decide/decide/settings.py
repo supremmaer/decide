@@ -70,7 +70,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
+BASEURL = 'https://decide-dialga-postproc.herokuapp.com/admin/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -99,6 +99,18 @@ TEMPLATES = [
         },
     },
 ]
+
+APIS = {
+    'authentication': BASEURL,
+    'base': BASEURL,
+    'booth': BASEURL,
+    'census': BASEURL,
+    'mixnet': BASEURL,
+    'postproc': BASEURL,
+    'store': BASEURL,
+    'visualizer': BASEURL,
+    'voting': BASEURL,
+}
 
 WSGI_APPLICATION = 'decide.wsgi.application'
 
