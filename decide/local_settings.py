@@ -14,18 +14,18 @@ MODULES = [
 ]
 
 APIS = {
-    'authentication': 'http://decide-test12.herokuapp.com',
-    'base': 'http://decide-test12.herokuapp.com',
-    'booth': 'http://decide-test12.herokuapp.com',
-    'census': 'http://decide-test12.herokuapp.com',
-    'mixnet': 'http://decide-test12.herokuapp.com',
-    'postproc': 'http://decide-test12.herokuapp.com',
-    'store': 'http://decide-test12.herokuapp.com',
-    'visualizer': 'http://decide-test12.herokuapp.com',
-    'voting': 'http://decide-test12.herokuapp.com',
+    'authentication': 'http://decide-dialga-postproc.herokuapp.com',
+    'base': 'http://decide-dialga-postproc.herokuapp.com',
+    'booth': 'http://decide-dialga-postproc.herokuapp.com',
+    'census': 'http://decide-dialga-postproc.herokuapp.com',
+    'mixnet': 'http://decide-dialga-postproc.herokuapp.com',
+    'postproc': 'http://decide-dialga-postproc.herokuapp.com',
+    'store': 'http://decide-dialga-postproc.herokuapp.com',
+    'visualizer': 'http://decide-dialga-postproc.herokuapp.com',
+    'voting': 'http://decide-dialga-postproc.herokuapp.com',
 }
 
-BASEURL = 'http://decide-test12.herokuapp.com'
+BASEURL = 'http://decide-dialga-postproc.herokuapp.com'
 
 DATABASES = {
     'default': {
